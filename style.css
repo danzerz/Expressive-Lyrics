@@ -1,0 +1,161 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Music&display=swap");
+
+/* Resetting default padding and margin */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for the body */
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #d4145a,
+    #fbb03b
+  ); /* Background gradient */
+}
+
+/* Styling for the header and list items */
+ul,
+h1 {
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff6d; /* Semi-transparent white background */
+  text-align: center;
+}
+
+/* Styling for list items */
+li {
+  text-align: center;
+}
+
+/* Main container styling */
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for main section headings */
+.main h2 {
+  height: 40px;
+  width: 30%;
+  text-transform: uppercase;
+  background-color: #d9c0c031; /* Semi-transparent background color */
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* Grid container styling */
+.grid-container {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 10px; /* Gap between grid items */
+}
+
+/* Styling for grid items */
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #000;
+  background-color: rgba(3, 33, 26, 0.976); /* Slightly transparent white */
+  font-size: 15px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* Styling for specific grid items */
+.grid-container .grid-item:nth-child(1) {
+  color: rgb(132, 139, 3);
+}
+.grid-container .grid-item:nth-child(2) {
+  color: rgb(239, 137, 132);
+}
+.grid-container .grid-item:nth-child(3) {
+  color: rgb(252, 6, 6);
+  font-family: "Syncopate", sans-serif; /* Custom font */
+  font-weight: 400;
+  font-style: italic;
+}
+/* More specific styling for grid items */
+.grid-container .grid-item:nth-child(4) {
+  color: rgb(240, 141, 12);
+}
+.grid-container .grid-item:nth-child(5) {
+  color: red;
+}
+.grid-container .grid-item:nth-child(6) {
+  color: brown;
+}
+.grid-container .grid-item:nth-child(7) {
+  color: rgb(132, 139, 3);
+}
+.grid-container .grid-item:nth-child(8) {
+  color: red;
+  font-family: "Syncopate", sans-serif; /* Custom font */
+  font-weight: 400;
+  font-style: italic;
+}
+.grid-container .grid-item:nth-child(9) {
+  color: brown;
+}
+.grid-container .grid-item:nth-child(10) {
+  color: red;
+  font-family: "Syncopate", sans-serif; /* Custom font */
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Hover effect on grid items */
+.grid-item:hover {
+  font-size: 20px; /* Increase font size on hover */
+  transform: scale(1.1); /* Scale up the item on hover */
+  color: #ff6347; /* Change text color on hover */
+  transition: all 0.3s ease; /* Smooth transition */
+  cursor: pointer;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  color: white;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+  width: 100%;
+}
+
+/* Styling for footer section headings */
+h2 a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Hover effect on footer headings */
+.main h2:hover {
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+/* Hover effect on footer links */
+h2 a:hover {
+  color: #46051d;
+  font-size: 25px;
+  transition: all 0.3s ease;
+}
